@@ -4,6 +4,6 @@ Pipeline
   {
     steps
     {
-      git "https://github.com/sociobugsocio-bit/jenkinscripts.git"
+      git clone 'https://github.com/sociobugsocio-bit/jenkinscripts.git'
     }
   }
