@@ -1,9 +1,10 @@
-Pipeline
+pipeline
+{
   agent any
-  stage("Code checkout via Github")
-  {
-    steps
+  stages{
+    stage("Code checkout via Github")
     {
-      git clone 'https://github.com/sociobugsocio-bit/jenkinscripts.git'
-    }
-  }
+      steps
+      {
+        git clone 'https://github.com/sociobugsocio-bit/jenkinscripts.git'
+      }}}}
